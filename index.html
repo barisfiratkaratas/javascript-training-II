@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <title>Javascript Tutorial</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="card w-100 mt-3">
+                <div class="card-header">
+                    <h5 class="card-title">Todo List Sayfası </h5>
+                </div>
+                <div class="card-body">
+                    <form id="todoAddForm" class="mt-2">
+                        <input type="text" class="form-control mt-2" id="todoName" aria-describedby="todo" placeholder="Todo Giriniz">
+                    
+                 <button id="todoAddButton" type="submit"  class="btn btn-primary mt-4 btn-sm">
+                        Todo Ekleyin</button>
+                    </form>
+                </div>
+
+                <hr/>
+
+                <div class="card-body">
+                    <h5 class="card-title">Todo Listesi</h5>
+                    <form name="form2" id="todoListForm">
+                        <input id="todoSearch" type="text" class="form-control mt-3" placeholder="Todo Arayınız">
+                        <hr/>
+                    </form>
+
+                    <ul class="list-group">
+                        <!--
+                        <li class="list-group-item d-flex justify-content-between">Todo 1
+                            <a href="#" class="delete-item">
+                                <i class="fa fa-remove"></i>
+                            </a>
+                        </li>
+                      -->
+                      </ul>
+
+                      <a href="#"  id="clearButton"  class="btn btn-primary btn-sm mt-3">Tüm Todoları Temizle</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+    <script src="js/003-javascript-dahil-etme.js"></script>
+    <script src="js/004-cikti-alma-metotlari.js"></script>
+    <script src="js/005-window-document-nesnesi.js"></script>
+    <script src="js/006-gelistirme-araci-nedir.js"></script>
+    <script src="js/007-yorum-satiri-kullanimi.js"></script>
+    <script src="js/008-nedir-bu-scope-kavrami.js"></script>
+    <script src="js/009-var-let-const.js"></script>
+    <script src="js/010-veri-türleri.js"></script>
+    <script src="js/011-aritmetik-operatorler.js"></script>
+    <script src="js/012-atama-operatorleri.js"></script>
+    <script src="js/013-mantiksal-operatörler.js"></script>
+    <script src="js/014-karsilastirma-operatoru.js"></script>
+    <script src="js/015-diyalog-kutulari.js"></script>
+    <script src="js/016-kosul-yapilari-nedir.js"></script>
+    <script src="js/017.kosul-yapilari-pratik-calisma.js"></script>
+    <script src="js/018-ortalama-bulma-uygulamasi.js"></script>
+    <script src="js/019-if-else-if-else-yapisi-pratik-calisma.js"></script>
+    <script src="js/020-birden-fazla-if-yapisi.js"></script>
+    <script src="js/021-coklu-if-kullanimi-pratik-calisma.js"></script>
+    <script src="js/022-beden-kitle-endeksi-bulma.js"></script>
+    <script src="js/023-benzin-istasyonu-uygulamasi.js"></script>
+    <script src="js/024-if-else-if-else-yapisi.js"></script>
+    <script src="js/025-haftanin-günleri-pratik-calisması.js"></script>
+    <script src="js/026-switch-case-kulalnimi.js"></script>
+    <script src="js/027-atm-pratik-calisma.js"></script>
+    <script src="js/028-tyt-puan-hesaplama-pratik-calismasi.js"></script>
+    <script src="js/029-tur-donusumleri.js"></script>
+    <script src="js/030-breakpoint-tooltip-kullanimi.js"></script>
+    <script src="js/031-donguler.js"></script>
+    <script src="js/032-for-dongusu-calisma-yapisi.js"></script>
+    <script src="js/033-for-dongusu-pratik-calisma.js"></script>
+    <script src="js/034-while-dongusu-calisma-yapisi.js"></script>
+    <script src="/js035-while-dongusu-pratik-calisma.js"></script>
+    <script src="js/036-do-while-dongusu.js"></script>
+    <script src="js/037-do-while-dongusu-pratik-calisma.js"></script>
+    <script src="js/038-break-ve-continue-kullanimi.js"></script>
+    <script src="js/039-carpim-tablosu-uygulamasi.js"></script>
+    <script src="js/040-asal-sayi-bulma-pratik-calismasi.js"></script>
+    <script src="js/041-faktoriyel-bulma-pratik-calismasi.js"></script>
+    <script src="js/042-armstrong-sayisi-uygulamasi.js"></script>
+    <script src="js/043-metot-kullanimi.js"></script>
+    <script src="js/044-parametresiz-metot-olusturma.js"></script>
+    <script src="js/045-parametreli-metot-tanimlama.js"></script>
+    <script src="js/046-return-ile-deger-dondurmek.js.js"></script>
+    <script src="js/047-harf-sayisi-uygulamasi.js"></script>
+    <script src="js/048-perfect-number-uygulamasi.js"></script>
+    <script src="js/049-decimal-sayiyi-binary-sayiya-cevirme.js"></script>
+    <script src="js/050-binary-to-decimal-conversion.js"></script>
+    <script src="js/051-bilgilendirme.js"></script>
+    <script src="js/052-array-dizi-giris.js"></script>
+    <script src="js/053-dizi-array-olusturma.js"></script>
+    <script src="js/054-dizi-array-2.js"></script>
+    <script src="js/055-forEaxch-dongusu-kullanimi.js"></script>
+    <script src="js/056-dizi-metotlari.js"></script>
+    <script src="js/057-urun-arama-uygulamasi.js"></script>
+    <script src="js/058-kitap-bulma-uygulamasi.js"></script>
+    <script src="js/059-string-metotlari.js"></script>
+    <script src="js/060-math-sinifinin-metotları.js"></script>
+    <script src="js/061-date-sinifi-metotları.js"></script>
+    <script src="js/062-deger-ve-referans-tipler.js"></script>
+    <script src="js/063-DOM-document-object-model-nedir.js"></script>
+    <script src="js/064-document-objesini-taniyalim.js"></script>
+    <script src="js/065-DOM-seciciler-selectors.js"></script>
+    <script src="js/066-DOM-style-ozelligi-kullanma.js"></script>
+    <script src="js/067-elementler-uzerinde-gezinme.js"></script>
+    <script src="js/068-element-olusturma.js"></script>
+    <script src="js/069-element-silme.js"></script>
+    <script src="js/070-elementlere-yer-degistirme.js"></script>
+    <script src="js/071-events.js"></script>
+    <script src="js/072-events-kullanim-alani-event-listener.js"></script>
+    <script src="js/073-mouse-eventlari.js"></script>
+    <script src="js/074-klavye-eventları.js"></script>
+    <script src="js/075-input-eventları.js"></script>
+    <script src="js/076-session-storage.js"></script>
+    <script src="js/077-local-storage.js"></script>
+</body>
+</html>
