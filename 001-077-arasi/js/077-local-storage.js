@@ -10,7 +10,6 @@
 
 
 //? Değeri Almak
-
 // let value = localStorage.getItem("motion1");
 // console.log(value);
 
